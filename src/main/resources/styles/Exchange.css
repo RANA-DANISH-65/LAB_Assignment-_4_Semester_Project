@@ -1,0 +1,145 @@
+
+
+
+.root {
+    -fx-background-color: #2C3E50;
+    -fx-padding: 10px;
+}
+
+.navbar {
+    -fx-background-color: #34495E;
+    -fx-spacing: 50px;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+    -fx-pref-width: 100%;
+}
+
+.navbar .button {
+    -fx-background-color: #166ba0;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 4px 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.Label-smallfont .label{
+    -fx-text-fill:white;
+    -fx-font-size:16px;
+}
+
+
+.navbar .button:hover {
+    -fx-background-color: #3b7192;
+}
+
+
+.navbar .label  {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-font-weight: bold;
+    -fx-font-family: "Monospace";
+    -fx-font-size: 80px;
+    -fx-padding: 10px 0;
+}
+.mainheading-container .label {
+    -fx-text-fill:white;
+
+    -fx-font-size:40px;
+    -fx-font-weight:bold;
+    -fx-spacing: 10;
+
+}
+.result-container .label{
+    -fx-font-size:20px;
+    -fx-font-weight:bold;
+    -fx-font-family:  sans-serif;
+}
+.result-container .text-field {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-font-family: sans-serif;
+    -fx-text-fill: #333333;
+}
+
+.comboboxes {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 5 10 5 10;
+}
+
+.comboboxes  {
+    -fx-font-style: italic;
+    -fx-text-fill: #999999;
+}
+
+.comboboxes :focused {
+    -fx-border-color: #b5bfc7;
+    -fx-border-width: 2;
+}
+
+.comboboxes :hover {
+    -fx-background-color: #e6e6e6;
+}
+
+
+.comboboxes  {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+    -fx-background-radius: 5;
+}
+
+.comboboxes2 {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 5 10 5 10;
+}
+
+
+.comboboxes2  {
+    -fx-font-style: italic;
+    -fx-text-fill: #999999;
+}
+
+
+.comboboxes2 :focused {
+    -fx-border-color: #b5bfc7;
+    -fx-border-width: 2;
+}
+
+
+.comboboxes2 :hover {
+    -fx-background-color: #e6e6e6;
+}
+
+
+.comboboxes2  {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+    -fx-background-radius: 5;
+}
+.comparebutton{
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 5 10 5 10;
+}

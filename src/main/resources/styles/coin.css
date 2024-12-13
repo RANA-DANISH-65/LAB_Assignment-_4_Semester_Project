@@ -1,0 +1,61 @@
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #212121, #424242);
+    -fx-font-family: 'Poppins', sans-serif;
+}
+
+
+#coinName {
+    -fx-text-fill: #FF8C00;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+
+#description {
+    -fx-text-fill: #B0B0B0;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+
+#bottomSection {
+    -fx-padding-left: 400px;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+
+.label {
+    -fx-text-fill: #B0B0B0;
+    -fx-font-size: 14px;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+
+#exitButton {
+    -fx-background-color: #FF8C00;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-border-radius: 15px;
+    -fx-background-insets: 0, 0;
+    -fx-effect: dropshadow(three-pass-box, #000000, 5, 0, 0, 1);
+    -fx-cursor: hand;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+
+#exitButton:hover {
+    -fx-background-color: #FFA500;
+}
+
+#bottomSection Button {
+    -fx-background-color: #FF8C00;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 15px;
+    -fx-background-insets: 0, 0;
+    -fx-cursor: hand;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+
+#bottomSection Button:hover {
+    -fx-background-color: #FFA500;
+}

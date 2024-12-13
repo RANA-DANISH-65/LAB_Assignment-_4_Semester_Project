@@ -1,0 +1,26 @@
+
+.alert {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+}
+
+
+.alert .alert-content {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+}
+
+.alert .button {
+    -fx-background-color: #666;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+}
+
+.alert .button:hover {
+    -fx-background-color: #555;
+}
+
+.alert .button:pressed {
+    -fx-background-color: #444;
+}
